@@ -1,7 +1,13 @@
 name: send-tweet
 on:
+<<<<<<< HEAD
   schedule:
     - cron: "0 */10 * * *"
+=======
+   schedule :
+          - cron : '0 */10 * * *'
+  
+>>>>>>> 50c75230a22289da283309e72f78089db95cd7b6
 jobs:
   tweet:
     runs-on: ubuntu-latest
